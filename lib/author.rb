@@ -11,7 +11,7 @@ class Author
   end
   
   def self.post_count
-    Post.all.select{|posts| posts.author == self}
+    Post.all.count
   end
   
   def add_post(posts)
