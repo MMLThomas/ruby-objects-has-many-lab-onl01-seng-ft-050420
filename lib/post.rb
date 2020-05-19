@@ -11,7 +11,7 @@ class Post
     @@all
   end
   
-  def self.all
+  def self.count
     @@all.count
   end
   
