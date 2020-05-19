@@ -11,11 +11,6 @@ class Post
     @@all
   end
   
-  def self.post_count
-    @@all.count
-  end
-  
-  
   def author_name
     if author
       self.author.name 
